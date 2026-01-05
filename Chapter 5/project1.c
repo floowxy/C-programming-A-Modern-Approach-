@@ -5,15 +5,16 @@ int main(void){
     printf("Digite un numero : ");
     scanf("%d",&x);
 
-    if((x>0)&&(x<=9)){
-        printf("El numero tiene un digito\n");
+    if (x <= 9){
+    printf("1 digito");
     }
-    else if ((x>=10)&&(x<=99)){
-        printf("El numero tiene dos digitos.\n");
+    else if (x <= 99){
+    printf("2 digitos");
     }
-    else{
-        printf("El numero tiene 3 digitos\n");
+    else if (x <= 999){
+    printf("3 digitos");
     }
-
-    return 0;
+    else {
+    printf("4 digitos");
+    }
 }
