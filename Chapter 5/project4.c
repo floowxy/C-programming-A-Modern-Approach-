@@ -27,6 +27,9 @@ int main(void){
 
     printf("Impuesto a pagar: %.2f\n", impuesto);
 
+
+    
     return 0;
     //xd
+    //xd Cuota
 }
